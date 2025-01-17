@@ -1,0 +1,67 @@
+
+div{
+    margin: 10px 50%
+}
+.fadein{
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+}
+.fadein:hover{
+    background-color: #777;
+}
+.changecolor{
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+}
+.changecolor:hover{
+    background-color: #b96565;
+}
+.grow{
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    transition: 1s;
+}
+.grow:hover{
+   transform: scale(1.2);
+}
+.shrink{
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    transition: 1s;
+}
+.shrink:hover{
+   transform: scale(0.7);
+}
+.rotate{
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+
+}
+.rotate:hover{
+    transform: rotate(-45deg);
+}
+.squaretocirle{
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    transition-duration: 2s;
+}
+.squaretocirle:hover{
+    border-radius: 60px;
+}
+.insertborder{
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+    transition-duration: 0.5s;
+    box-sizing: border-box;
+  }
+  
+.insertborder:hover {
+    border: 8px solid #333;
+  }
