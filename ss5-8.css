@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: #fefaf0;
+  border: 15px solid #b44c87;
+  border-radius: 50%;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-name: mymove; 
+  animation-duration: 4s;
+}
+@keyframes mymove {
+      100%{transform: rotateZ(360deg)}
+} 
+
+.clock {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.hour-hand {
+  position: absolute;
+  background-color: rgb(31, 103, 155);
+  width: 5px;
+  height: 50px;
+  top: 50px;
+  left: 97px;
+  transform-origin: 50% 100%;
+  transform: rotate(150deg);
+}
+
+.minute-hand {
+  position: absolute;
+  background-color: rgb(31, 103, 155);
+  width: 4px;
+  height: 70px;
+  top: 30px;
+  left: 98px;
+  transform-origin: 50% 100%;
+}
+.center-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(236, 143, 143);
+  border-radius: 50%;
+  top: 95px;
+  left: 95px;
+  z-index: 3;
+}
