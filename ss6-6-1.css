@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Giới hạn w & h chỉ nằm trong thẻ dù có đổi padding hay margin*/
+}
+.post-container{
+    width: 400px;
+}
+.post-container img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.post-container h3{
+    padding-left: 15px ;
+    border-left: 4px solid orange;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.post-container div a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.post-container div{
+    margin-bottom: 15px;
+}
+.post-container p {
+    margin-bottom: 20px;
+    color: #828282;
+}
+.post-container ul li {
+    border-top: 1px solid #828282;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #424242;
+}
