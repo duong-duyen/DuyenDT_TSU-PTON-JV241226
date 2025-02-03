@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: .1fr 2fr .1fr   ;
+    grid-template-areas:  
+    "header header header header "
+    "sidebar conten conten conten"
+    "footer footer footer footer"
+    ;
+    gap: .5rem;
+}
+
+header {
+    background-color: #98D8EF ;
+    grid-area: header;
+}
+
+.sidebar {
+    background-color: #EAE2C6;
+    grid-area: sidebar;
+}
+
+.content {
+    background-color: #BFBBA9;
+    grid-area: conten;
+}
+
+footer {
+    background-color: #ADA991;
+    grid-area: footer;
+}

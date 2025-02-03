@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 50px);
+    gap: .4rem;
+    grid-template-areas: 
+    "big1 big1 small1 small2 "
+    "big1 big1 small3 small4"
+    "big big small5 small6"
+    "big big small7 small8";
+}
+
+.container div {
+    background-color: #818C78;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+.big1{
+    grid-area: big1;
+
+}
+
+.big2{
+    grid-area: big;
+}
+
+.small1{
+    grid-area: small1;
+
+}
+
+.small2{
+    grid-area: small2;
+}
+
+.small3{
+    grid-area: small3;
+}
+
+.small4{
+    grid-area: small4;
+}
+
+.small5{
+    grid-area: small5;
+}
+
+.small6{
+    grid-area: small6;
+}
+
+.small7{
+    grid-area: small7;
+}
+
+.small8{
+    grid-area: small8;
+}
+
+

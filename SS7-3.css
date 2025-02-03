@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .3rem;
+    height: 200px;
+    
+}
+
+.container div{
+    text-align: center;
+    background-color: skyblue;
+    color: black;
+    font-size: 20px;
+    align-content: center;
+} 
+
+.item5{
+    grid-column: 1 / 3;
+}

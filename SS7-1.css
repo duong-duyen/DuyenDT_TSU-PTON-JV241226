@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+    background-color: skyblue;
+    color: white;
+    width: 100px;
+    height: 100px;
+    
+}

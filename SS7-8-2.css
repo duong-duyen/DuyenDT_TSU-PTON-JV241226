@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: inline;
+    text-align: center;
+    
+}
+h1 {
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5,130px);
+    grid-template-rows: repeat(2,1.5fr);
+    gap: 100px;
+    margin: 0 250px;
+}
+.container button {
+     background-color: black;
+     color: white;
+     width: 50px;
+     height: 20px;
+     border-radius: 4px;
+    
+}
+img {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 5px;
+}
+.book p {
+    padding-bottom: 10px;
+    font-weight: 550;
+}
+.book {
+    border-radius: 5px;
+    border: 1px solid #828282;
+    padding: 15px;
+}
+
+.book .cost {
+    color: #9b9b9b;
+    padding: 10px;
+    
+}
