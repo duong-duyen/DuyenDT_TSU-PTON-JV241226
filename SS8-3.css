@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    
+}
+
+.inform {
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding: 15px 0 0 20px;
+
+}
+
+@media screen and (max-width :480px){
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);   
+    }
+}
